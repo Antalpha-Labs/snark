@@ -13,7 +13,7 @@ license = "MIT/Apache-2.0"
 edition = "2021"
 
 [dependencies]
-ark-ff = { git = "https://github.com/Antalpha-Labs/algebra/" }
+ark-ff = { path = "../../algebra/ff" }
 ark-std = { version = "0.4.0" }
 tracing = { version = "0.1", default-features = false }
 tracing-subscriber = { version = "0.2", default-features = false, optional = true }
