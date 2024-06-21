@@ -13,7 +13,7 @@ license = "MIT/Apache-2.0"
 edition = "2021"
 
 [dependencies]
-ark-ff = { git = "https://github.com/arkworks-rs/algebra/" }
+ark-ff = { git = "https://github.com/Antalpha-Labs/algebra/" }
 ark-std = { version = "0.4.0", default-features = false }
 ark-serialize = { version = "0.4.0", default-features = false }
 ark-relations = { version = "0.4.0", path = "../relations", default-features = false }
